@@ -1,0 +1,14 @@
+package Week1_2.Level3;
+
+import java.util.Scanner;
+
+public class Q10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int numberOfStudents;
+        System.out.print("Enter number of students: ");
+        numberOfStudents = sc.nextInt();
+        int handshakes = (numberOfStudents * (numberOfStudents - 1)) / 2;
+        System.out.println("The maximum number of possible handshakes is "+handshakes);
+    }
+}
